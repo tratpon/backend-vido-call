@@ -40,7 +40,7 @@ app.post('/api/rooms', (req, res) => {
   res.json({
     success: true,
     room: room,
-    joinUrl: `http://localhost:3000/room/${roomId}`
+    joinUrl: `http://https://front-end-e9xy.onrender.com/:3000/room/${roomId}`
   });
 });
 
